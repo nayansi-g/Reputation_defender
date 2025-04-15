@@ -7,7 +7,7 @@ import usa from "../components/assets/united-states.png";
 const FirstNAv = () => {
   return (
     <div>
-      <div className="h-7 bg-white flex gap-7 justify-end pr-1 ">
+      <div className="h-7 bg-black text-white flex gap-7 justify-end pr-1 ">
         <p>Contact Us </p>
         <p>Login</p>
         <p className="flex gap-3">

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import Logo from "../components/assets/logo1.png";
 import { ChevronRight, Phone } from "lucide-react";
 
 const Navbar = () => {
@@ -10,10 +9,10 @@ const Navbar = () => {
   const [showSecond, setShowSecond] = useState(false);
   const [showThird, setShowThird] = useState(false);
   return (
-    <div className=" sticky top-0 z-50 shadow-md bg-black ">
-      <div className="flex justify-between  text-white ml-20">
-        <div className="flex text-white gap-20 justify-center items-center shadow-lg">
-          <img className="w-36 h-32" src={Logo} alt="" />
+    <div className=" sticky top-0 z-50 shadow-md bg-white ">
+      <div className="flex justify-between  text-black ml-20">
+        <div className="flex text-black gap-20 justify-center items-center p-5">
+          <h1 className="text-2xl font-sans font-bold">Reputation Defender</h1>
           <div className="relative flex gap-10">
             <div
               onMouseEnter={() => setShow(true)}

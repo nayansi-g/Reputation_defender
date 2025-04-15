@@ -12,7 +12,7 @@ export default function ReputationCard() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="w-full md:w-1/2 text-center  md:text-left"
       >
-        <h1 className="text-3xl md:text-5xl text-white font-extrabold">
+        <h1 className="text-3xl md:text-5xl text-black font-extrabold">
           Free Reputation <br /> Report Card
         </h1>
         <p className="mt-4 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
@@ -22,15 +22,15 @@ export default function ReputationCard() {
           </ul>
         </p>
         <div className=" mt-10 flex items-center text-xl justify-between">
-          <div className="flex flex-col gap-5 text-white">
+          <div className="flex flex-col gap-5 text-black">
             <p className="font-bold">Talk to an Expert</p>
             <button className="flex justify-center items-center bg-white rounded-full p-2 text-black font-bold transition-transform duration-300 hover:scale-110">
               <Phone className="h-4" /> 877-657-2643
             </button>
           </div>
-          <p className="text-white">or</p>
+          <p className="text-black">or</p>
           <div className="flex flex-col gap-5 ">
-            <p className="flex flex-col text-white">
+            <p className="flex flex-col text-black">
               <small className="mb-0">Get your free</small>
               <span className="font-bold">Reputation Report Card</span>
             </p>

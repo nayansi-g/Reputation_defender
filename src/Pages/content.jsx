@@ -12,11 +12,11 @@ const Content = () => {
   return (
     <div className="flex flex-col px-40 gap-10">
       <div className="bg-gray-950 h-60 rounded-3xl transition-transform duration-300 hover:scale-110">
-        <div className="flex flex-col text-3xl font-sans text-white p-5 justify-center items-center">
+        <div className="flex flex-col text-3xl font-sans text-black p-5 justify-center items-center">
           <p>You deserve to be represented</p>
           <p>fairly and accurately online</p>
         </div>
-        <div className="flex flex-col font-serif justify-center text-white items-center">
+        <div className="flex flex-col font-serif justify-center text-black items-center">
           <p className="font-serif">
             No matter what threats you face online, ReputationDefender can help.
           </p>
@@ -35,7 +35,7 @@ const Content = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="w-full md:w-1/2 text-center  md:text-left"
           >
-            <h1 className="text-2xl mb-8 md:text-4xl text-white ">
+            <h1 className="text-2xl mb-8 md:text-4xl text-black ">
               Online Content <br /> Suppression
             </h1>
             <small className="mt-7 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
@@ -43,7 +43,7 @@ const Content = () => {
               <p>people search for you or your</p>
               <p>business in Google.</p>
             </small>
-            <button className="text-white rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </motion.div>
@@ -84,7 +84,7 @@ const Content = () => {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className=" w-full md:w-1/2 text-center mt-7 md:text-left"
           >
-            <h1 className="text-2xl  md:text-4xl text-white ">
+            <h1 className="text-2xl  md:text-4xl text-black ">
               Concierge Digital Security
             </h1>
 
@@ -93,7 +93,7 @@ const Content = () => {
               internet.
             </p>
 
-            <button className="text-white rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </motion.div>
@@ -106,14 +106,14 @@ const Content = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className=" w-full md:w-1/2 text-center mt-7 md:text-left"
           >
-            <h1 className="text-2xl  md:text-4xl text-white ">
+            <h1 className="text-2xl  md:text-4xl text-black ">
               Online reviews
             </h1>
             <small className=" mx-auto mt-7 flex flex-col text-gray-400">
               <p>Recruit loyal customers to sing your</p>
               <p>company’s praises through online reviews.</p>
             </small>
-            <button className="text-white rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </motion.div>
@@ -135,8 +135,8 @@ const Content = () => {
       </div>
       <div className="flex flex-col mt-10 justify-center  gap-10">
         <div className="flex flex-col justify-center items-center text-3xl font-semibold">
-          <h1 className="text-white">Additional solutions for</h1>
-          <h1 className="text-white">executives and businesses</h1>
+          <h1 className="text-black">Additional solutions for</h1>
+          <h1 className="text-black">executives and businesses</h1>
         </div>
         <div className="flex flex-col md:flex-row  items-center justify-center gap-20">
           {/* Left content sliding in from the left */}
@@ -147,7 +147,7 @@ const Content = () => {
             className="w-full md:w-1/2 text-center  md:text-left"
           >
             <div className="flex flex-col items-center md:items-start justify-start">
-              <h1 className="text-2xl  md:text-4xl text-white ml-20 ">
+              <h1 className="text-2xl  md:text-4xl text-black ml-20 ">
                 Corporate Privacy
               </h1>
               <small className="mt-5 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
@@ -155,7 +155,7 @@ const Content = () => {
                 <p>attacks against your company’s</p>
                 <p>personnel.</p>
               </small>
-              <button className="text-white w-32 rounded-full mt-6 mb-6 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+              <button className="text-black w-32 rounded-full mt-6 mb-6 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
                 Learn More..
               </button>
               <img
@@ -174,7 +174,7 @@ const Content = () => {
             className="w-full md:w-1/2 flex justify-center"
           >
             <div className="flex flex-col justify-start items-start">
-              <h1 className="text-2xl md:text-4xl text-white text-center ml-20 ">
+              <h1 className="text-2xl md:text-4xl text-black text-center ml-20 ">
                 VIP services
               </h1>
               <small className="mt-7 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
@@ -182,7 +182,7 @@ const Content = () => {
                 <p>situations that require extra care and</p>
                 <p>attention.</p>
               </small>
-              <button className="text-white w-32 ml-10 mb-6 rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+              <button className="text-black w-32 ml-10 mb-6 rounded-full mt-6 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
                 Learn More..
               </button>
               <img
@@ -195,24 +195,24 @@ const Content = () => {
         </div>
       </div>
       <div className="bg-gray-950 h-60 rounded-3xl mt-10 mb-10 transition-transform duration-300 hover:scale-110">
-        <div className="flex flex-col mt-10 justify-center gap-7 text-white items-center">
+        <div className="flex flex-col mt-10 justify-center gap-7 text-black items-center">
           <h1 className="text-3xl ">Need assistance? Talk to an expert.</h1>
           <p className="font-serif text-gray-400">
             Free, confidential, and without obligation.
           </p>
           <div className="flex gap-5">
-            <button className=" flex justify-center items-center bg-yellow-500 rounded-full p-2 text-white font-bold transition-transform duration-300 hover:scale-110">
+            <button className=" flex justify-center items-center bg-yellow-500 rounded-full p-2 text-black font-bold transition-transform duration-300 hover:scale-110">
               <Phone className="h-4" /> 877-657-2643
             </button>
             <p>Or</p>
-            <button className=" flex justify-center items-center bg-yellow-500 rounded-full p-2 text-white font-bold transition-transform duration-300 hover:scale-110">
+            <button className=" flex justify-center items-center bg-yellow-500 rounded-full p-2 text-black font-bold transition-transform duration-300 hover:scale-110">
               Schedule a Consultation
             </button>
           </div>
         </div>
       </div>
       <div class=" flex flex-col gap-3 justify-center items-center aspect-w-16 aspect-h-9 w-full max-w-3xl mx-auto">
-        <h1 className="text-white text-4xl font-semibold">National TV Add</h1>
+        <h1 className="text-black text-4xl font-semibold">National TV Add</h1>
         <iframe
           width="600"
           height="400"
@@ -224,57 +224,57 @@ const Content = () => {
           allowfullscreen
         ></iframe>
       </div>
-      <div className="bg-gray-950 flex flex-col justify-center items-center p-3 mb-20 text-white  rounded-3xl ">
+      <div className="bg-gray-950 flex flex-col justify-center items-center p-3 mb-20 text-black  rounded-3xl ">
         <div className="text-4xl mt-10 text-semibold">
           Solutions tailored to your needs
         </div>
         <div className="flex gap-20 mt-10 justify-between">
           <p className=" flex flex-col  justify-start">
-            <h1 className="text-2xl  md:text-4xl text-white">Individuals</h1>
+            <h1 className="text-2xl  md:text-4xl text-black">Individuals</h1>
             <small className="mt-5 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
               <p>Protect your professional reputation. Safeguard</p>
               <p>your family’s privacy.</p>
             </small>
-            <button className="text-white w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </p>
           <p>
-            <h1 className="text-2xl mb-5  md:text-4xl text-white  ">
+            <h1 className="text-2xl mb-5  md:text-4xl text-black  ">
               Small businesses
             </h1>
             <small className="mt-5 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
               <p>Make sure your customers find the right</p>
               <p>information about your business online.</p>
             </small>
-            <button className="text-white w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </p>
         </div>
         <div className="flex gap-20 mt-10">
           <div className="flex flex-col justify-start">
-            <h1 className="text-2xl mb-5 md:text-4xl text-white  ">
+            <h1 className="text-2xl mb-5 md:text-4xl text-black  ">
               Executives
             </h1>
             <small className="mt-5 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
               <p>Project the right image to the world. Protect your</p>
               <p>family from privacy and safety threats.</p>
             </small>
-            <button className="text-white w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </div>
           <p>
             {" "}
-            <h1 className="text-2xl mb-5  md:text-4xl text-white  ">
+            <h1 className="text-2xl mb-5  md:text-4xl text-black  ">
               Large companies
             </h1>
             <small className="mt-5 text-lg md:text-xl max-w-xl mx-auto text-gray-400">
               <p>Boost the effectiveness of your messaging.</p>
               <p>Reduce the effectiveness of hacking attacks.</p>
             </small>
-            <button className="text-white w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
+            <button className="text-black w-32 rounded-full mt-6 mb-3 ml-10 bg-blue-700 p-3 transition-transform duration-300 hover:scale-110">
               Learn More..
             </button>
           </p>

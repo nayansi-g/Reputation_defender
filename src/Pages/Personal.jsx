@@ -2,7 +2,7 @@
 
 // export default function PersonalService() {
 //   return (
-//     <div className="bg-gray-900 text-white">
+//     <div className="bg-gray-900 text-black">
 //       <AnimatedSection title="Personal Reputation Management">
 //         <p>
 //           Our Personal ORM solutions help individuals control how they appear in
@@ -33,7 +33,7 @@ const fadeUp = {
 
 export default function PersonalService() {
   return (
-    <div className=" text-white ">
+    <div className=" text-black ">
       <div className="max-w-6xl mx-auto">
         <motion.h1
           className="text-4xl md:text-5xl font-bold text-center mb-6"
@@ -77,7 +77,7 @@ export default function PersonalService() {
           ].map((item, i) => (
             <motion.div
               key={i}
-              className="bg-black text-white p-6 rounded-xl shadow-md "
+              className="bg-blue-200 text-black p-6 rounded-xl shadow-md "
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
